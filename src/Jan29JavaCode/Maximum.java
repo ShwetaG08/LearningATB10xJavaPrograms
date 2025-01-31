@@ -1,5 +1,5 @@
-import javax.imageio.stream.ImageInputStream;
-import java.lang.reflect.Method;
+package Jan29JavaCode;
+
 import java.util.Scanner;
 
 public class Maximum {

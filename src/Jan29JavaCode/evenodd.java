@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Jan29JavaCode;
+
 import java.util.Scanner;
 
 public class evenodd {
