@@ -12,15 +12,15 @@ public class Bill {
             double bill=unit * 0.50;
             System.out.println("bill is "+bill);
         } else if (unit>100 && unit<=200) {
-            double bill=unit * 0.75;
+            double bill=(100*0.50)+((unit-100) * 0.75);
             System.out.println("bill is "+bill);
                     }
         else if(unit>200 && unit<=300){
-            double bill=unit * 1.20;
+            double bill=(100*0.50)+(100*0.75)+((unit-200) * 1.20);
             System.out.println("bill is "+bill);
         }
         else {
-            double bill=unit * 1.50;
+            double bill=(100*0.50)+(100*0.75)+(100 * 1.20)+((unit-300) * 1.50);
             System.out.println("bill is "+bill);
         }
     }
